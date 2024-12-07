@@ -1,6 +1,8 @@
-const { defineConfig } = require('@vue/cli-service');
+(async () => {
+  const { defineConfig } = await import('@vue/cli-service');
 
-module.exports = defineConfig({
-  transpileDependencies: true,
-  publicPath: '/nom-du-repo/' // Remplacez 'nom-du-repo' par le nom de votre dépôt GitHub
-});
+  module.exports = defineConfig({
+    transpileDependencies: true,
+    publicPath: '/Eduvibe/' // Remplacez 'Eduvibe' par le nom de votre dépôt GitHub
+  });
+})();
