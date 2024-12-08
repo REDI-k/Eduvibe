@@ -1,0 +1,40 @@
+{
+  "name": "eduvibe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "array-uniq": "^1.0.3",
+    "email-addresses": "^3.1.0",
+    "filename-reserved-regex": "^1.0.0",
+    "filenamify": "^1.2.1",
+    "filenamify-url": "^1.0.0",
+    "gh-pages": "^2.2.0",
+    "humanize-url": "^1.0.1",
+    "pinkie": "^2.0.4",
+    "pinkie-promise": "^2.0.1",
+    "prepend-http": "^1.0.4",
+    "query-string": "^4.3.4",
+    "sort-keys": "^1.1.2",
+    "strict-uri-encode": "^1.1.0",
+    "strip-outer": "^1.0.1",
+    "strip-url-auth": "^1.0.1",
+    "trim-repeated": "^1.0.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vuex": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vue-loader": "^17.4.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.11.0"
+  }
+}
